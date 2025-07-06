@@ -1,0 +1,7 @@
+`console.$method($args)` where {
+  register_diagnostic(
+    span = $method,
+    message = "Don't use console methods in production code",
+    severity = "warn"
+    )
+}

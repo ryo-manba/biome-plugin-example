@@ -21,5 +21,5 @@
 	"assist": {
 		"enabled": false
 	},
-	"plugins": ["./plugins/no-object-assign.grit"]
+	"plugins": ["./plugins/no-object-assign.grit", "./plugins/no-explicit-colors.grit"]
 }

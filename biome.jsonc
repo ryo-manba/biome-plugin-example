@@ -1,13 +1,5 @@
 {
 	"$schema": "https://biomejs.dev/schemas/2.0.6/schema.json",
-	"vcs": {
-		"enabled": false,
-		"clientKind": "git",
-		"useIgnoreFile": false
-	},
-	"files": {
-		"ignoreUnknown": false
-	},
 	"formatter": {
 		"enabled": true,
 		"indentStyle": "tab"
@@ -17,7 +9,7 @@
 		"rules": {
 			"recommended": false,
 			"suspicious": {
-				"noConsole": "warn"
+				// "noConsole": "warn"
 			}
 		}
 	},
@@ -27,9 +19,7 @@
 		}
 	},
 	"assist": {
-		"enabled": false,
-		"actions": {
-			"source": {}
-		}
-	}
+		"enabled": false
+	},
+	"plugins": ["./plugins/no-object-assign.grit"]
 }

@@ -1,0 +1,27 @@
+{
+	"name": "biome-plugin-example",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"check": "pnpm biome check",
+		"format": "pnpm biome format --write",
+		"lint": "pnpm biome lint"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ryo-manba/biome-plugin-example.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ryo-manba/biome-plugin-example/issues"
+	},
+	"homepage": "https://github.com/ryo-manba/biome-plugin-example#readme",
+	"devDependencies": {
+		"@biomejs/biome": "^2.0.6"
+	},
+	"packageManager": "pnpm@10.12.4"
+}

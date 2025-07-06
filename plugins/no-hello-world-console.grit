@@ -1,0 +1,8 @@
+`console.log($args)` where {
+  $args <: `"Hello, world!"`,
+  register_diagnostic(
+    span = $args,
+    message = "Avoid using console.log('Hello, world!') in production code",
+    severity = "error"
+  )
+}
